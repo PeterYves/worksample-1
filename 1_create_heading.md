@@ -3,8 +3,7 @@
 # Learning Outcomes
 # Course Prerequisites
 # TABLE OF CONTENTS
-
-    * ## CHAPTER 1. INTRODUCTION
+   ## CHAPTER 1. INTRODUCTION
 
 ## CHAPTER 2. RUBY
 ### What is ruby?
