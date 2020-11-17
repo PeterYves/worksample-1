@@ -26,14 +26,14 @@
        1. User defined functions and predefined functions
 
    ## CHAPTER 3. RAILS
-      * Creating new rails application
-      * Dealing with postgresql database
-      * Rails modeling
-      * Rails migrations
-      * Rails controllers
-      * Rails routes
-      * Rails views
-      * Rails layout
-      * Scaffolding
+   + Creating new rails application
+   + Dealing with postgresql database
+   + Rails modeling
+   + Rails migrations
+   + Rails controllers
+   + Rails routes
+   + Rails views
+   + Rails layout
+   + Scaffolding
 
 
