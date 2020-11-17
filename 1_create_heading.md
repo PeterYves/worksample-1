@@ -18,11 +18,11 @@
    + Control structures in ruby
        1. Selection structures
        2. control structures
-    + Complex ruby types
+   + Complex ruby types
        1. arrays 
        2. objects
        3. pointers
-    + Ruby functions/methods
+   + Ruby functions/methods
        1. User defined functions and predefined functions
 
    ## CHAPTER 3. RAILS
