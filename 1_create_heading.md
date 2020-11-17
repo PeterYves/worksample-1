@@ -1,10 +1,11 @@
+# Course Aims
+# Course objectives
+# Learning Outcomes
+# Course Prerequisites
 # TABLE OF CONTENTS
 
-## CHAPTER 1. INTRODUCTION
-### Course Aims
-### Course objectives
-### Learning Outcomes
-### Course Prerequisites
+    * ## CHAPTER 1. INTRODUCTION
+
 ## CHAPTER 2. RUBY
 ### What is ruby?
 ### Data types in ruby
