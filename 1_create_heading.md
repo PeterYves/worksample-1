@@ -11,7 +11,7 @@
    ## CHAPTER 1. INTRODUCTION
 
    ## CHAPTER 2. RUBY
-      ** What is ruby? **
+      _What is ruby?_
       Data types in ruby
       Variables in ruby, Operators and expressions
       Control structures in ruby
