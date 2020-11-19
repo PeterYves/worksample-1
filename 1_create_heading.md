@@ -4,8 +4,8 @@
 
    ## Introduction to rails
    
-      * What is Rails
-      * Difference between rails and other programming languages
+      + What is Rails
+      + Difference between rails and other programming languages
 
    ## CHAPTER 3. RAILS
    
