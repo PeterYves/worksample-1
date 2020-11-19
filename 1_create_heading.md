@@ -1,13 +1,12 @@
-
-
 # TABLE OF CONTENTS
 
    ## Introduction to rails
    
-      + What is Rails
-      + Difference between rails and other programming languages
+   + What is Rails
+   + Difference between rails and other programming languages
+   
 
-   ## CHAPTER 3. RAILS
+   ## CHAPTER 3. RAILS APPLICATIONS AND EXAMPLES
    
    + Creating new rails application
    + Dealing with postgresql database
@@ -18,5 +17,6 @@
    + Rails views
    + Rails layout
    + Scaffolding
+   + Rails application speed issues and solutions
 
 
