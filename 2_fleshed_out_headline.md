@@ -22,13 +22,17 @@
  + Rails migrations  
  The migration file, which is stored in db/migrate like all other migrations files. Migrations describe the changes we'll be making to our database (though   haven't actually enacted just yet). In this case, the generated migrations file say:  
   class CreateUsers < ActiveRecord::Migration  
-  > def change  
-  >> create_table :users do |t|  
-  >>> t.string :username  
-  >>> t.string :password  
-  >>> t.timestamps  
-  >> end  
-  > end  
+  
+   > def change  
+   
+   >> create_table :users do |t|  
+   >>> t.string :username  
+   >>> t.string :password  
+   >>> t.timestamps  
+   
+   >> end  
+   > end  
+   
   end  
  + Rails controllers
  + Rails routes
