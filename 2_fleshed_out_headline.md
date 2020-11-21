@@ -45,13 +45,13 @@
   > def list  
    end
    
-   def show  
+  > def show  
    end
    
-   def new  
+   > def new  
    end
    
-   def create  
+   > def create  
    end
    
    def edit  
@@ -60,7 +60,7 @@
    def update  
    end
    
-   def delete  
+   > def delete  
    end
 
 end
@@ -81,7 +81,7 @@ You can define your action in the way you want, like if you want to display all 
  
  Rails.application.routes.draw do  
  
-   get 'signup', to: 'users#new', as: 'signup'  
+   > get 'signup', to: 'users#new', as: 'signup'  
    resources :users  
    
  end 
