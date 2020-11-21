@@ -15,8 +15,6 @@
    + Rails controllers
    + Rails routes
    + Rails views
-   + Rails layout
    + Scaffolding
-   + Rails application speed issues and solutions
 
 
