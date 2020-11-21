@@ -42,7 +42,7 @@
  
  Class UsersController < ApplicationController  
  
-   def list  
+  > def list  
    end
    
    def show  
@@ -79,12 +79,12 @@ You can define your action in the way you want, like if you want to display all 
  
  Example:  
  
- `Rails.application.routes.draw do  
+ Rails.application.routes.draw do  
  
    get 'signup', to: 'users#new', as: 'signup'  
    resources :users  
    
- end`  
+ end 
  
  This gives us ability to access the signup page from new action of the users controller through the URL signup/.  You can also define URLs for all controller actions(ressourses) by putting `resources :users` in the 
  
