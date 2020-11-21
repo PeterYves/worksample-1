@@ -35,7 +35,42 @@
    > end  
    
   end  
+  
+  To run rails migration activities use the command `rake db:migrate` or `rails db:migrate`.  
  + Rails controllers
+ The Rails controller is the logical center of your application. It coordinates the interaction between the user, the views, and the model.  
+ Rails controller contains a number of actions that controls the user interaction with the application. Let's have an example
+ class BooksersController < ApplicationController
+   def list
+   end
+   
+   def show
+   end
+   
+   def new
+   end
+   
+   def create
+   end
+   
+   def edit
+   end
+   
+   def update
+   end
+   
+   def delete
+   end
+   
+end
+
+This controller shows list, show, new, create, edit, update and delete activities written in the form of methods  
+You can define your action in the way you want, like if you want to display all users you can user action list as follows:  
+
+  def list  
+  > @users = User.all
+  end  
+  
  + Rails routes
  + Rails views
  + Rails layout
