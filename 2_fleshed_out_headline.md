@@ -41,25 +41,25 @@
  The Rails controller is the logical center of your application. It coordinates the interaction between the user, the views, and the model.  
  Rails controller contains a number of actions that controls the user interaction with the application. Let's have an example
  class BooksersController < ApplicationController
-   def list
+   def list  
    end
    
-   def show
+   def show  
    end
    
-   def new
+   def new  
    end
    
-   def create
+   def create  
    end
    
-   def edit
+   def edit  
    end
    
-   def update
+   def update  
    end
    
-   def delete
+   def delete  
    end
    
 end
@@ -68,7 +68,7 @@ This controller shows list, show, new, create, edit, update and delete activitie
 You can define your action in the way you want, like if you want to display all users you can user action list as follows:  
 
   def list  
-  > @users = User.all
+  > @users = User.all  
   end  
   
  + Rails routes
