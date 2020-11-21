@@ -98,15 +98,15 @@ You can define your action in the way you want, like if you want to display all 
  
  ![Rails view example!](users.png "Users") 
  
- + Scaffolding
- “Scaffolding is a temporary structure used to support a work crew to aid in the construction, maintenance and repair of buildings, bridges and all other man-made structures.” – Wikipedia  
+ + Scaffolding  
+ 
+ “Scaffolding is a temporary structure used to support a work crew to aid in the construction, maintenance and repair of buildings, bridges and all other    man-made structures.” – Wikipedia  
  
  In Rails, a scaffold is a set of automatically generated files which forms the basic structure of a Rails project.  
  If you want to create the models, views, and controllers for a new resource in a single operation, scaffolding is the tool for the job.
  To generate rails scaffold use `rails g scaffold name` where name is the name of the scaffold.  
  Example: `rails g scaffold users email:string password_digest:string`  
  The above command generates the scaffold with the fields email and password_digest of the type string
- + Rails application speed issues and solutions 
  
 
 
