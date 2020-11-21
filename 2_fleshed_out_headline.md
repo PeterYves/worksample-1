@@ -92,7 +92,7 @@ You can define your action in the way you want, like if you want to display all 
  A Rails View is an ERb program that shares data with controllers through mutually accessible variables.  
  It is used to display information to the user when browsing on application. Here is an example:  
  
- ![Philadelphia's Magic Gardens. This place was so cool!](view.jpg "Philadelphia's Magic Gardens")  
+ ![Rails view example!](view.png "This shows you all users on the users page")
  
  + Rails layout
  + Scaffolding
