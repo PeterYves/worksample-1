@@ -61,7 +61,7 @@
    
    def delete  
    end
-   
+
 end
 
 This controller shows list, show, new, create, edit, update and delete activities written in the form of methods  
@@ -74,6 +74,17 @@ You can define your action in the way you want, like if you want to display all 
   end  
   
  + Rails routes
+ The Rails router recognizes URLs and dispatches them to a controller’s action. It can also generate paths and URLs, avoiding the need to hardcode strings in your views.
+ 
+ Example:  
+ 
+ `Rails.application.routes.draw do
+ > get 'signup', to: 'users#new', as: 'signup'
+ > resources :users
+ end`  
+ 
+ This gives us ability to access the signup page from new action of the users controller through the URL signup/.  You can also define URLs for all controller actions(ressourses) by putting `resources :users` in the 
+ 
  + Rails views
  + Rails layout
  + Scaffolding
